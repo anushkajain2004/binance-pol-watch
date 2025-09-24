@@ -3,10 +3,12 @@
 ## 📌 Project Overview
 
 This is my custom blockchain project designed to track **real-time POL token transfers** on the **Polygon network**, with a focus on **cumulative net-flows to and from Binance addresses**.
+🔗 [Live Dashboard – binance-pol-watch](https://lovable.dev/projects/534ed09a-29bb-4d7a-b8f0-51b73a9261b5)
 
-🔗 [Live Dashboard (Lovable)](https://lovable.dev/projects/534ed09a-29bb-4d7a-b8f0-51b73a9261b5)
+
 
 ---
+
 
 ## 🛠️ Technologies Used
 
