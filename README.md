@@ -36,12 +36,5 @@ This is my custom blockchain project designed to track **real-time POL token tra
 
 ---
 
-## 🧑‍💻 How to Edit or Run Locally
 
-You can edit the frontend using Lovable or clone this repo and run it locally:
 
-```sh
-git clone <YOUR_GIT_URL>
-cd <YOUR_PROJECT_NAME>
-npm i
-npm run dev
