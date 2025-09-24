@@ -1,73 +1,47 @@
-# Welcome to your Lovable project
+# 🚀 Real-Time POL Token Flow Tracker on Polygon
 
-## Project info
+## 📌 Project Overview
 
-**URL**: https://lovable.dev/projects/534ed09a-29bb-4d7a-b8f0-51b73a9261b5
+This is my custom blockchain project designed to track **real-time POL token transfers** on the **Polygon network**, with a focus on **cumulative net-flows to and from Binance addresses**.
 
-## How can I edit this code?
+🔗 [Live Dashboard (Lovable)](https://lovable.dev/projects/534ed09a-29bb-4d7a-b8f0-51b73a9261b5)
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🛠️ Technologies Used
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/534ed09a-29bb-4d7a-b8f0-51b73a9261b5) and start prompting.
+- **Frontend**: React + TypeScript + Tailwind CSS + shadcn-ui (built using Lovable)
+- **Backend**: Rust-based real-time indexer (hosted separately)
+- **Blockchain**: Polygon Network
+- **Token**: POL
+- **Database**: SQLite
+- **Deployment**: Lovable + GitHub
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 📊 What This Project Does
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- Tracks POL token transfers involving Binance addresses
+- Calculates cumulative net-flows (inflows – outflows)
+- Displays real-time charts and historical tables
+- Designed for future scalability to support more exchanges
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🧠 Architecture
+
+- **Rust Indexer**: Connects to Polygon RPC, listens to blocks, identifies POL transfers, stores data in SQLite
+- **API Layer**: Serves net-flow data to frontend
+- **React Dashboard**: Visualizes token flows, address activity, and trends
+
+---
+
+## 🧑‍💻 How to Edit or Run Locally
+
+You can edit the frontend using Lovable or clone this repo and run it locally:
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
 git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
 cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
 npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/534ed09a-29bb-4d7a-b8f0-51b73a9261b5) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
